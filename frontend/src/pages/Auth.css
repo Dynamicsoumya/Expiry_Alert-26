@@ -1,0 +1,24 @@
+.auth-page { display: flex; min-height: 100vh; }
+.auth-brand { flex: 1; background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%); display: flex; align-items: center; justify-content: center; padding: 40px; }
+.auth-brand-inner { max-width: 400px; color: white; }
+.auth-logo { font-size: 56px; margin-bottom: 16px; }
+.auth-brand h1 { font-size: 36px; font-weight: 800; margin-bottom: 8px; }
+.auth-brand p { font-size: 18px; color: #93c5fd; margin-bottom: 40px; }
+.auth-features { display: flex; flex-direction: column; gap: 12px; }
+.auth-feature { background: rgba(255,255,255,0.1); padding: 12px 16px; border-radius: 8px; font-size: 15px; }
+.auth-form-side { flex: 1; display: flex; align-items: center; justify-content: center; padding: 40px; background: #f8fafc; }
+.auth-card { background: white; border-radius: 16px; padding: 40px; width: 100%; max-width: 420px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); }
+.auth-card h2 { font-size: 28px; font-weight: 700; color: #0f172a; margin-bottom: 6px; }
+.auth-subtitle { color: #64748b; margin-bottom: 28px; font-size: 14px; }
+.form-group { margin-bottom: 18px; }
+.form-group label { display: block; font-size: 14px; font-weight: 500; color: #374151; margin-bottom: 6px; }
+.form-group input, .form-group select, .form-group textarea { width: 100%; padding: 10px 14px; border: 1.5px solid #e2e8f0; border-radius: 8px; font-size: 14px; transition: border-color 0.15s; background: white; }
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+.btn-primary { background: #2563eb; color: white; border: none; padding: 12px 24px; border-radius: 8px; font-size: 15px; font-weight: 600; transition: background 0.15s; }
+.btn-primary:hover:not(:disabled) { background: #1d4ed8; }
+.btn-primary:disabled { opacity: 0.6; cursor: not-allowed; }
+.btn-block { width: 100%; margin-top: 4px; }
+.btn-demo { width: 100%; margin-top: 12px; padding: 10px; border: 1.5px dashed #e2e8f0; background: none; border-radius: 8px; color: #64748b; font-size: 13px; transition: all 0.15s; }
+.btn-demo:hover { border-color: #2563eb; color: #2563eb; background: #eff6ff; }
+.auth-switch { text-align: center; margin-top: 20px; font-size: 14px; color: #64748b; }
+.auth-switch a { color: #2563eb; font-weight: 600; }
