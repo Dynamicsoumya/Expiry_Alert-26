@@ -10,7 +10,7 @@ const app = express();
 
 // Middleware
 const allowedOrigins = [
-  process.env.FRONTEND_URL,
+  process.env.CLIENT_URL,
 ];
 
 app.use(cors({
