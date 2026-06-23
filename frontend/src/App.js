@@ -21,8 +21,6 @@ function Layout() {
     }
   }, [user, location.pathname]);
 
-  if (loading) return null; 
-
   if (!user) return <Navigate to="/login" replace />;
 
   return (
