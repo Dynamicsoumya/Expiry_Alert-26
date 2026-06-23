@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Doughnut, Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement, Title } from 'chart.js';
-import { api } from '../context/AuthContext';
+import api from '../utils/api';
 import { useAuth } from '../context/AuthContext';
 import Header from '../components/Header';
 import StatCard from '../components/StatCard';

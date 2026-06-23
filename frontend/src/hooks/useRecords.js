@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { api } from '../context/AuthContext';
+import api from '../utils/api';
 import toast from 'react-hot-toast';
 
 export const useRecords = () => {

@@ -1,12 +1,10 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import axios from 'axios';
+import api from '../utils/api';
 import toast from 'react-hot-toast';
 
 const AuthContext = createContext();
 
 export const useAuth = () => useContext(AuthContext);
-
-const api = axios.create({ baseURL: '/api' });
 
 api.interceptors.request.use(config => {
   const token = localStorage.getItem('token');

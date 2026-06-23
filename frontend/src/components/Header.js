@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { api } from '../context/AuthContext';
+import api from '../utils/api';
 import { formatDate } from '../utils/helpers';
 
 export default function Header({ title, actions }) {

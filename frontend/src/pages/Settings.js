@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import Header from '../components/Header';
 import toast from 'react-hot-toast';
-import { api } from '../context/AuthContext';
+import api from '../utils/api';
 
 export default function Settings() {
   const { user, updateProfile } = useAuth();
